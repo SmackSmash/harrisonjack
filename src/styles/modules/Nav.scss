@@ -1,0 +1,12 @@
+@import '../base/variables.scss';
+@import '../base/mixins.scss';
+
+.nav {
+  color: $primary-color;
+}
+
+@include mobile {
+  .nav {
+    color: green;
+  }
+}
